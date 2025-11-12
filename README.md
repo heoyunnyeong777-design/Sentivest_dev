@@ -76,13 +76,13 @@ cd Sentivest_dev
 - [ ] 데이터베이스 연결 설정
 
 ### 3단계: 기본 패키지 구조 및 설정 파일
-- [ ] `src/sentivest/__init__.py` 파일 생성
+- [x] `src/sentivest/__init__.py` 파일 생성
+- [x] 각 서브 패키지에 `__init__.py` 파일 생성
 - [ ] `src/sentivest/config/` 설정 모듈 작성
   - [ ] 환경 변수 로드
   - [ ] 데이터베이스 설정
   - [ ] API 설정
 - [ ] `src/sentivest/utils/` 유틸리티 함수 작성
-- [ ] 각 서브 패키지에 `__init__.py` 파일 생성
 
 ### 4단계: 데이터베이스 설정
 - [ ] 데이터베이스 연결 클래스 작성
