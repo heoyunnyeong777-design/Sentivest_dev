@@ -119,10 +119,12 @@ python main.py
   - [x] API 설정
 - [ ] `src/sentivest/utils/` 유틸리티 함수 작성
 
-### 4단계: 데이터베이스 설정
-- [ ] 데이터베이스 연결 클래스 작성
-- [ ] 데이터베이스 모델 기본 구조 설정
-- [ ] 마이그레이션 설정 (Alembic)
+### 4단계: 데이터베이스 설정 (라이트 버전 완료)
+- [x] 데이터베이스 연결 클래스 작성 (`src/sentivest/database/connection.py`)
+  - [x] 엔진/세션/Base/get_db/check_connection 제공
+  - [x] psycopg3 URL 자동 변환(postgresql → postgresql+psycopg)
+- [x] 데이터베이스 모델 기본 구조 설정 (`src/sentivest/models/test_table.py`)
+  - [x] 예시 테이블 모델(TestTable) 정의 (id/name/description/created_at/updated_at)
 
 ### 5단계: 데이터 모델 정의
 - [ ] `src/sentivest/models/` 데이터 모델 작성
